@@ -1,0 +1,76 @@
+{
+  "full": {
+    "Arabic": {
+      "wer": 0.1136,
+      "cer": 0.0491,
+      "ser": 0.5382,
+      "per": 0.0539,
+      "wil": 0.1958,
+      "bertscore_f1": 0.9704,
+      "num_samples": 340
+    },
+    "Indian": {
+      "wer": 0.0827,
+      "cer": 0.0349,
+      "ser": 0.4289,
+      "per": 0.0383,
+      "wil": 0.1446,
+      "bertscore_f1": 0.9795,
+      "num_samples": 457
+    },
+    "Korean": {
+      "wer": 0.0937,
+      "cer": 0.0415,
+      "ser": 0.5134,
+      "per": 0.0454,
+      "wil": 0.1628,
+      "bertscore_f1": 0.9772,
+      "num_samples": 335
+    },
+    "Mandarin": {
+      "wer": 0.2641,
+      "cer": 0.1353,
+      "ser": 0.6031,
+      "per": 0.129,
+      "wil": 0.3271,
+      "bertscore_f1": 0.9638,
+      "num_samples": 451
+    },
+    "Native": {
+      "wer": 0.0469,
+      "cer": 0.0166,
+      "ser": 0.4926,
+      "per": 0.018,
+      "wil": 0.0822,
+      "bertscore_f1": 0.9869,
+      "num_samples": 272
+    },
+    "overall": {
+      "wer": 0.1148,
+      "cer": 0.0527,
+      "ser": 0.5159,
+      "per": 0.054,
+      "wil": 0.1781,
+      "bertscore_f1": 0.9747,
+      "num_samples": 1855
+    }
+  },
+  "task4_baseline": {
+    "overall": {
+      "wer": 0.26,
+      "cer": 0.1824,
+      "ser": 0.5639,
+      "per": 0.1849,
+      "wil": 0.3186,
+      "bertscore_f1": 0.9622
+    }
+  },
+  "overall_delta_vs_task4": {
+    "wer_delta": -0.1452,
+    "cer_delta": -0.1297,
+    "ser_delta": -0.048,
+    "per_delta": -0.1309,
+    "wil_delta": -0.1405,
+    "bertscore_f1_delta": 0.0125
+  }
+}
