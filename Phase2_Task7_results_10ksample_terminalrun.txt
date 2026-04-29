@@ -1,0 +1,912 @@
+PS C:\Users\shreya\Desktop\MirrorSpeech> (Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& c:\Users\shreya\Desktop\MirrorSpeech\venv\Scripts\Activate.ps1)
+(venv) PS C:\Users\shreya\Desktop\MirrorSpeech> & c:\Users\shreya\Desktop\MirrorSpeech\venv\Scripts\python.exe c:/Users/shreya/Desktop/MirrorSpeech/ImprovedScript_27April.py
+======================================================================
+MirrorSpeech Balanced 10k Improvement Run
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 5090
+======================================================================
+SPLITS_DIR : C:\Users\shreya\Desktop\Mirrorspeech\splits
+LIBRI_ROOT : C:\Users\shreya\Desktop\Mirrorspeech\librispeech
+CKPT_DIR   : C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun
+Accent map: {0: 'Indian', 1: 'Mandarin', 2: 'Korean', 3: 'Arabic', 4: 'Native'}
+Num accent classes: 5
+Target sample rate: 16000
+Already extracted: RRBI
+Already extracted: SVBI
+Already extracted: TNI
+Already extracted: NJS
+Already extracted: HQTV
+Already extracted: MBMPS
+Already extracted: NCC
+Already extracted: TXHC
+Already extracted: HJK
+Already extracted: HKK
+Already extracted: YDCK
+Already extracted: YKWK
+Already extracted: ABA
+Already extracted: YBAA
+Already extracted: SKA
+Already extracted: ZHAA
+Already extracted: ASI
+Already extracted: BWC
+Already extracted: EBVS
+Already extracted: ERMS
+Already extracted: LXC
+Already extracted: PNV
+Already extracted: THV
+Already extracted: TLV
+LibriSpeech already present locally.
+Dataset sizes:
+  Train: 10000
+  Val  : 200
+  Test : 1855
+Accent classes: 5
+  Indian    : 2000
+  Mandarin  : 2000
+  Korean    : 2000
+  Arabic    : 2000
+  Native    : 2000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Whisper processor ready.
+Datasets ready.
+Dataloaders ready:
+  Train batches: 625
+  Val batches  : 13
+  Test batches : 116
+
+================================================================================
+EXPERIMENT: FULL
+use_accent_swap=True | use_lcma=True | epochs=3 | lr=2e-05
+================================================================================
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 479/479 [00:00<00:00, 5699.85it/s]
+
+--- Epoch 1/3 ---
+======================================================================
+MirrorSpeech Balanced 10k Improvement Run
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 5090
+======================================================================
+SPLITS_DIR : C:\Users\shreya\Desktop\Mirrorspeech\splits
+LIBRI_ROOT : C:\Users\shreya\Desktop\Mirrorspeech\librispeech
+CKPT_DIR   : C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun
+Accent map: {0: 'Indian', 1: 'Mandarin', 2: 'Korean', 3: 'Arabic', 4: 'Native'}
+Num accent classes: 5
+Target sample rate: 16000
+Already extracted: RRBI
+Already extracted: SVBI
+Already extracted: TNI
+Already extracted: NJS
+Already extracted: HQTV
+Already extracted: MBMPS
+Already extracted: NCC
+Already extracted: TXHC
+Already extracted: HJK
+Already extracted: HKK
+Already extracted: YDCK
+Already extracted: YKWK
+Already extracted: ABA
+Already extracted: YBAA
+Already extracted: SKA
+Already extracted: ZHAA
+Already extracted: ASI
+Already extracted: BWC
+Already extracted: EBVS
+Already extracted: ERMS
+Already extracted: LXC
+Already extracted: PNV
+Already extracted: THV
+Already extracted: TLV
+LibriSpeech already present locally.
+Dataset sizes:
+  Train: 10000
+  Val  : 200
+  Test : 1855
+Accent classes: 5
+  Indian    : 2000
+  Mandarin  : 2000
+  Korean    : 2000
+  Arabic    : 2000
+  Native    : 2000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Whisper processor ready.
+Datasets ready.
+Dataloaders ready:
+  Train batches: 625
+  Val batches  : 13
+  Test batches : 116
+======================================================================
+MirrorSpeech Balanced 10k Improvement Run
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 5090
+======================================================================
+SPLITS_DIR : C:\Users\shreya\Desktop\Mirrorspeech\splits
+LIBRI_ROOT : C:\Users\shreya\Desktop\Mirrorspeech\librispeech
+CKPT_DIR   : C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun
+Accent map: {0: 'Indian', 1: 'Mandarin', 2: 'Korean', 3: 'Arabic', 4: 'Native'}
+Num accent classes: 5
+Target sample rate: 16000
+Already extracted: RRBI
+Already extracted: SVBI
+Already extracted: TNI
+Already extracted: NJS
+Already extracted: HQTV
+Already extracted: MBMPS
+Already extracted: NCC
+Already extracted: TXHC
+Already extracted: HJK
+Already extracted: HKK
+Already extracted: YDCK
+Already extracted: YKWK
+Already extracted: ABA
+Already extracted: YBAA
+Already extracted: SKA
+Already extracted: ZHAA
+Already extracted: ASI
+Already extracted: BWC
+Already extracted: EBVS
+Already extracted: ERMS
+Already extracted: LXC
+Already extracted: PNV
+Already extracted: THV
+Already extracted: TLV
+LibriSpeech already present locally.
+Dataset sizes:
+  Train: 10000
+  Val  : 200
+  Test : 1855
+Accent classes: 5
+  Indian    : 2000
+  Mandarin  : 2000
+  Korean    : 2000
+  Arabic    : 2000
+  Native    : 2000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Whisper processor ready.
+Datasets ready.
+Dataloaders ready:
+  Train batches: 625
+  Val batches  : 13
+  Test batches : 116
+======================================================================
+MirrorSpeech Balanced 10k Improvement Run
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 5090
+======================================================================
+SPLITS_DIR : C:\Users\shreya\Desktop\Mirrorspeech\splits
+LIBRI_ROOT : C:\Users\shreya\Desktop\Mirrorspeech\librispeech
+CKPT_DIR   : C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun
+Accent map: {0: 'Indian', 1: 'Mandarin', 2: 'Korean', 3: 'Arabic', 4: 'Native'}
+Num accent classes: 5
+Target sample rate: 16000
+Already extracted: RRBI
+Already extracted: SVBI
+Already extracted: TNI
+Already extracted: NJS
+Already extracted: HQTV
+Already extracted: MBMPS
+Already extracted: NCC
+Already extracted: TXHC
+Already extracted: HJK
+Already extracted: HKK
+Already extracted: YDCK
+Already extracted: YKWK
+Already extracted: ABA
+Already extracted: YBAA
+Already extracted: SKA
+Already extracted: ZHAA
+Already extracted: ASI
+Already extracted: BWC
+Already extracted: EBVS
+Already extracted: ERMS
+Already extracted: LXC
+Already extracted: PNV
+Already extracted: THV
+Already extracted: TLV
+LibriSpeech already present locally.
+Dataset sizes:
+  Train: 10000
+  Val  : 200
+  Test : 1855
+Accent classes: 5
+  Indian    : 2000
+  Mandarin  : 2000
+  Korean    : 2000
+  Arabic    : 2000
+  Native    : 2000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Whisper processor ready.
+Datasets ready.
+Dataloaders ready:
+  Train batches: 625
+  Val batches  : 13
+  Test batches : 116
+======================================================================
+MirrorSpeech Balanced 10k Improvement Run
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 5090
+======================================================================
+SPLITS_DIR : C:\Users\shreya\Desktop\Mirrorspeech\splits
+LIBRI_ROOT : C:\Users\shreya\Desktop\Mirrorspeech\librispeech
+CKPT_DIR   : C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun
+Accent map: {0: 'Indian', 1: 'Mandarin', 2: 'Korean', 3: 'Arabic', 4: 'Native'}
+Num accent classes: 5
+Target sample rate: 16000
+Already extracted: RRBI
+Already extracted: SVBI
+Already extracted: TNI
+Already extracted: NJS
+Already extracted: HQTV
+Already extracted: MBMPS
+Already extracted: NCC
+Already extracted: TXHC
+Already extracted: HJK
+Already extracted: HKK
+Already extracted: YDCK
+Already extracted: YKWK
+Already extracted: ABA
+Already extracted: YBAA
+Already extracted: SKA
+Already extracted: ZHAA
+Already extracted: ASI
+Already extracted: BWC
+Already extracted: EBVS
+Already extracted: ERMS
+Already extracted: LXC
+Already extracted: PNV
+Already extracted: THV
+Already extracted: TLV
+LibriSpeech already present locally.
+Dataset sizes:
+  Train: 10000
+  Val  : 200
+  Test : 1855
+Accent classes: 5
+  Indian    : 2000
+  Mandarin  : 2000
+  Korean    : 2000
+  Arabic    : 2000
+  Native    : 2000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Whisper processor ready.
+Datasets ready.
+Dataloaders ready:
+  Train batches: 625
+  Val batches  : 13
+  Test batches : 116
+Epoch 1 | Batch 50/625 | total=4.7796 | asr=3.8436 | accent=1.6164 | lcma=0.1278
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch1_batch100_safety.pt
+Epoch 1 | Batch 100/625 | total=4.3509 | asr=3.4300 | accent=1.6115 | lcma=0.1152
+Epoch 1 | Batch 150/625 | total=3.8378 | asr=2.9343 | accent=1.6085 | lcma=0.0992
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch1_batch200_safety.pt
+Epoch 1 | Batch 200/625 | total=3.3960 | asr=2.5075 | accent=1.6040 | lcma=0.0865
+Epoch 1 | Batch 250/625 | total=3.0832 | asr=2.2071 | accent=1.5991 | lcma=0.0765
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch1_batch300_safety.pt
+Epoch 1 | Batch 300/625 | total=2.8876 | asr=2.0215 | accent=1.5949 | lcma=0.0686
+Epoch 1 | Batch 350/625 | total=2.7242 | asr=1.8677 | accent=1.5881 | lcma=0.0624
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch1_batch400_safety.pt
+Epoch 1 | Batch 400/625 | total=2.5966 | asr=1.7506 | accent=1.5774 | lcma=0.0574
+Epoch 1 | Batch 450/625 | total=2.4915 | asr=1.6573 | accent=1.5623 | lcma=0.0531
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch1_batch500_safety.pt
+Epoch 1 | Batch 500/625 | total=2.3994 | asr=1.5803 | accent=1.5392 | lcma=0.0496
+Epoch 1 | Batch 550/625 | total=2.3170 | asr=1.5145 | accent=1.5121 | lcma=0.0465
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch1_batch600_safety.pt
+Epoch 1 | Batch 600/625 | total=2.2386 | asr=1.4545 | accent=1.4807 | lcma=0.0438
+Epoch 1 | Batch 625/625 | total=2.2023 | asr=1.4276 | accent=1.4643 | lcma=0.0425
+======================================================================
+MirrorSpeech Balanced 10k Improvement Run
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 5090
+======================================================================
+SPLITS_DIR : C:\Users\shreya\Desktop\Mirrorspeech\splits
+LIBRI_ROOT : C:\Users\shreya\Desktop\Mirrorspeech\librispeech
+CKPT_DIR   : C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun
+Accent map: {0: 'Indian', 1: 'Mandarin', 2: 'Korean', 3: 'Arabic', 4: 'Native'}
+Num accent classes: 5
+Target sample rate: 16000
+Already extracted: RRBI
+Already extracted: SVBI
+Already extracted: TNI
+Already extracted: NJS
+Already extracted: HQTV
+Already extracted: MBMPS
+Already extracted: NCC
+Already extracted: TXHC
+Already extracted: HJK
+Already extracted: HKK
+Already extracted: YDCK
+Already extracted: YKWK
+Already extracted: ABA
+Already extracted: YBAA
+Already extracted: SKA
+Already extracted: ZHAA
+Already extracted: ASI
+Already extracted: BWC
+Already extracted: EBVS
+Already extracted: ERMS
+Already extracted: LXC
+Already extracted: PNV
+Already extracted: THV
+Already extracted: TLV
+LibriSpeech already present locally.
+Dataset sizes:
+  Train: 10000
+  Val  : 200
+  Test : 1855
+Accent classes: 5
+  Indian    : 2000
+  Mandarin  : 2000
+  Korean    : 2000
+  Arabic    : 2000
+  Native    : 2000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Whisper processor ready.
+Datasets ready.
+Dataloaders ready:
+  Train batches: 625
+  Val batches  : 13
+  Test batches : 116
+======================================================================
+MirrorSpeech Balanced 10k Improvement Run
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 5090
+======================================================================
+SPLITS_DIR : C:\Users\shreya\Desktop\Mirrorspeech\splits
+LIBRI_ROOT : C:\Users\shreya\Desktop\Mirrorspeech\librispeech
+CKPT_DIR   : C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun
+Accent map: {0: 'Indian', 1: 'Mandarin', 2: 'Korean', 3: 'Arabic', 4: 'Native'}
+Num accent classes: 5
+Target sample rate: 16000
+Already extracted: RRBI
+Already extracted: SVBI
+Already extracted: TNI
+Already extracted: NJS
+Already extracted: HQTV
+Already extracted: MBMPS
+Already extracted: NCC
+Already extracted: TXHC
+Already extracted: HJK
+Already extracted: HKK
+Already extracted: YDCK
+Already extracted: YKWK
+Already extracted: ABA
+Already extracted: YBAA
+Already extracted: SKA
+Already extracted: ZHAA
+Already extracted: ASI
+Already extracted: BWC
+Already extracted: EBVS
+Already extracted: ERMS
+Already extracted: LXC
+Already extracted: PNV
+Already extracted: THV
+Already extracted: TLV
+LibriSpeech already present locally.
+Dataset sizes:
+  Train: 10000
+  Val  : 200
+  Test : 1855
+Accent classes: 5
+  Indian    : 2000
+  Mandarin  : 2000
+  Korean    : 2000
+  Arabic    : 2000
+  Native    : 2000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Whisper processor ready.
+Datasets ready.
+Dataloaders ready:
+  Train batches: 625
+  Val batches  : 13
+  Test batches : 116
+======================================================================
+MirrorSpeech Balanced 10k Improvement Run
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 5090
+======================================================================
+SPLITS_DIR : C:\Users\shreya\Desktop\Mirrorspeech\splits
+LIBRI_ROOT : C:\Users\shreya\Desktop\Mirrorspeech\librispeech
+CKPT_DIR   : C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun
+Accent map: {0: 'Indian', 1: 'Mandarin', 2: 'Korean', 3: 'Arabic', 4: 'Native'}
+Num accent classes: 5
+Target sample rate: 16000
+Already extracted: RRBI
+Already extracted: SVBI
+Already extracted: TNI
+Already extracted: NJS
+Already extracted: HQTV
+Already extracted: MBMPS
+Already extracted: NCC
+Already extracted: TXHC
+Already extracted: HJK
+Already extracted: HKK
+Already extracted: YDCK
+Already extracted: YKWK
+Already extracted: ABA
+Already extracted: YBAA
+Already extracted: SKA
+Already extracted: ZHAA
+Already extracted: ASI
+Already extracted: BWC
+Already extracted: EBVS
+Already extracted: ERMS
+Already extracted: LXC
+Already extracted: PNV
+Already extracted: THV
+Already extracted: TLV
+LibriSpeech already present locally.
+Dataset sizes:
+  Train: 10000
+  Val  : 200
+  Test : 1855
+Accent classes: 5
+  Indian    : 2000
+  Mandarin  : 2000
+  Korean    : 2000
+  Arabic    : 2000
+  Native    : 2000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Whisper processor ready.
+Datasets ready.
+Dataloaders ready:
+  Train batches: 625
+  Val batches  : 13
+  Test batches : 116
+======================================================================
+MirrorSpeech Balanced 10k Improvement Run
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 5090
+======================================================================
+SPLITS_DIR : C:\Users\shreya\Desktop\Mirrorspeech\splits
+LIBRI_ROOT : C:\Users\shreya\Desktop\Mirrorspeech\librispeech
+CKPT_DIR   : C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun
+Accent map: {0: 'Indian', 1: 'Mandarin', 2: 'Korean', 3: 'Arabic', 4: 'Native'}
+Num accent classes: 5
+Target sample rate: 16000
+Already extracted: RRBI
+Already extracted: SVBI
+Already extracted: TNI
+Already extracted: NJS
+Already extracted: HQTV
+Already extracted: MBMPS
+Already extracted: NCC
+Already extracted: TXHC
+Already extracted: HJK
+Already extracted: HKK
+Already extracted: YDCK
+Already extracted: YKWK
+Already extracted: ABA
+Already extracted: YBAA
+Already extracted: SKA
+Already extracted: ZHAA
+Already extracted: ASI
+Already extracted: BWC
+Already extracted: EBVS
+Already extracted: ERMS
+Already extracted: LXC
+Already extracted: PNV
+Already extracted: THV
+Already extracted: TLV
+LibriSpeech already present locally.
+Dataset sizes:
+  Train: 10000
+  Val  : 200
+  Test : 1855
+Accent classes: 5
+  Indian    : 2000
+  Mandarin  : 2000
+  Korean    : 2000
+  Arabic    : 2000
+  Native    : 2000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Whisper processor ready.
+Datasets ready.
+Dataloaders ready:
+  Train batches: 625
+  Val batches  : 13
+  Test batches : 116
+[transformers] The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+[transformers] A custom logits processor of type <class 'transformers.generation.logits_process.SuppressTokensLogitsProcessor'> has been passed to `.generate()`, but it was also created in `.generate()`, given its parameterization. The custom <class 'transformers.generation.logits_process.SuppressTokensLogitsProcessor'> will take precedence. Please check the docstring of <class 'transformers.generation.logits_process.SuppressTokensLogitsProcessor'> to see related `.generate()` flags.
+[transformers] A custom logits processor of type <class 'transformers.generation.logits_process.SuppressTokensAtBeginLogitsProcessor'> has been passed to `.generate()`, but it was also created in `.generate()`, given its parameterization. The custom <class 'transformers.generation.logits_process.SuppressTokensAtBeginLogitsProcessor'> will take precedence. Please check the docstring of <class 'transformers.generation.logits_process.SuppressTokensAtBeginLogitsProcessor'> to see related `.generate()` flags.
+Train total=2.2023 | asr=1.4276 | accent=1.4643 | lcma=0.0425 | lr=1.59e-05
+Val   total=1.3421 | asr=0.7658 | accent=1.1221 | lcma=0.0152 | WER=0.1136 | CER=0.0447
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_full_epoch1.pt
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_full_best.pt
+New best validation WER: 0.1136
+
+--- Epoch 2/3 ---
+Epoch 2 | Batch 50/625 | total=1.2389 | asr=0.7021 | accent=1.0501 | lcma=0.0117
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch2_batch100_safety.pt
+Epoch 2 | Batch 100/625 | total=1.1857 | asr=0.6668 | accent=1.0157 | lcma=0.0111
+Epoch 2 | Batch 150/625 | total=1.0714 | asr=0.5659 | accent=0.9899 | lcma=0.0105
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch2_batch200_safety.pt
+Epoch 2 | Batch 200/625 | total=0.9927 | asr=0.5009 | accent=0.9629 | lcma=0.0104
+Epoch 2 | Batch 250/625 | total=0.9390 | asr=0.4583 | accent=0.9407 | lcma=0.0103
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch2_batch300_safety.pt
+Epoch 2 | Batch 300/625 | total=0.8969 | asr=0.4275 | accent=0.9185 | lcma=0.0102
+Epoch 2 | Batch 350/625 | total=0.8700 | asr=0.4086 | accent=0.9029 | lcma=0.0099
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch2_batch400_safety.pt
+Epoch 2 | Batch 400/625 | total=0.8484 | asr=0.3943 | accent=0.8886 | lcma=0.0098
+Epoch 2 | Batch 450/625 | total=0.8296 | asr=0.3834 | accent=0.8731 | lcma=0.0097
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch2_batch500_safety.pt
+Epoch 2 | Batch 500/625 | total=0.8118 | asr=0.3720 | accent=0.8606 | lcma=0.0095
+Epoch 2 | Batch 550/625 | total=0.7978 | asr=0.3630 | accent=0.8509 | lcma=0.0094
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch2_batch600_safety.pt
+Epoch 2 | Batch 600/625 | total=0.7838 | asr=0.3545 | accent=0.8401 | lcma=0.0093
+Epoch 2 | Batch 625/625 | total=0.7786 | asr=0.3516 | accent=0.8354 | lcma=0.0092
+Train total=0.7786 | asr=0.3516 | accent=0.8354 | lcma=0.0092 | lr=5.48e-06
+Val   total=0.6337 | asr=0.2446 | accent=0.7594 | lcma=0.0094 | WER=0.1081 | CER=0.0449
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_full_epoch2.pt
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_full_best.pt
+New best validation WER: 0.1081
+
+--- Epoch 3/3 ---
+Epoch 3 | Batch 50/625 | total=0.6270 | asr=0.2811 | accent=0.6762 | lcma=0.0078
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch3_batch100_safety.pt
+Epoch 3 | Batch 100/625 | total=0.6297 | asr=0.2761 | accent=0.6921 | lcma=0.0076
+Epoch 3 | Batch 150/625 | total=0.6281 | asr=0.2784 | accent=0.6843 | lcma=0.0075
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch3_batch200_safety.pt
+Epoch 3 | Batch 200/625 | total=0.6205 | asr=0.2750 | accent=0.6760 | lcma=0.0075
+Epoch 3 | Batch 250/625 | total=0.6214 | asr=0.2753 | accent=0.6771 | lcma=0.0075
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch3_batch300_safety.pt
+Epoch 3 | Batch 300/625 | total=0.6162 | asr=0.2722 | accent=0.6731 | lcma=0.0075
+Epoch 3 | Batch 350/625 | total=0.6154 | asr=0.2717 | accent=0.6726 | lcma=0.0074
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch3_batch400_safety.pt
+Epoch 3 | Batch 400/625 | total=0.6152 | asr=0.2721 | accent=0.6715 | lcma=0.0074
+Epoch 3 | Batch 450/625 | total=0.6143 | asr=0.2717 | accent=0.6704 | lcma=0.0074
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch3_batch500_safety.pt
+Epoch 3 | Batch 500/625 | total=0.6126 | asr=0.2710 | accent=0.6685 | lcma=0.0073
+Epoch 3 | Batch 550/625 | total=0.6114 | asr=0.2714 | accent=0.6654 | lcma=0.0073
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_epoch3_batch600_safety.pt
+Epoch 3 | Batch 600/625 | total=0.6101 | asr=0.2716 | accent=0.6622 | lcma=0.0073
+Epoch 3 | Batch 625/625 | total=0.6107 | asr=0.2722 | accent=0.6625 | lcma=0.0073
+Train total=0.6107 | asr=0.2722 | accent=0.6625 | lcma=0.0073 | lr=2.00e-06
+Val   total=0.5923 | asr=0.2371 | accent=0.6936 | lcma=0.0084 | WER=0.1076 | CER=0.0445
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_full_epoch3.pt
+Saved checkpoint -> C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_full_best.pt
+New best validation WER: 0.1076
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 479/479 [00:00<00:00, 3376.24it/s]
+======================================================================
+MirrorSpeech Balanced 10k Improvement Run
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 5090
+======================================================================
+SPLITS_DIR : C:\Users\shreya\Desktop\Mirrorspeech\splits
+LIBRI_ROOT : C:\Users\shreya\Desktop\Mirrorspeech\librispeech
+CKPT_DIR   : C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun
+Accent map: {0: 'Indian', 1: 'Mandarin', 2: 'Korean', 3: 'Arabic', 4: 'Native'}
+Num accent classes: 5
+Target sample rate: 16000
+Already extracted: RRBI
+Already extracted: SVBI
+Already extracted: TNI
+Already extracted: NJS
+Already extracted: HQTV
+Already extracted: MBMPS
+Already extracted: NCC
+Already extracted: TXHC
+Already extracted: HJK
+Already extracted: HKK
+Already extracted: YDCK
+Already extracted: YKWK
+Already extracted: ABA
+Already extracted: YBAA
+Already extracted: SKA
+Already extracted: ZHAA
+Already extracted: ASI
+Already extracted: BWC
+Already extracted: EBVS
+Already extracted: ERMS
+Already extracted: LXC
+Already extracted: PNV
+Already extracted: THV
+Already extracted: TLV
+LibriSpeech already present locally.
+Dataset sizes:
+  Train: 10000
+  Val  : 200
+  Test : 1855
+Accent classes: 5
+  Indian    : 2000
+  Mandarin  : 2000
+  Korean    : 2000
+  Arabic    : 2000
+  Native    : 2000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Whisper processor ready.
+Datasets ready.
+Dataloaders ready:
+  Train batches: 625
+  Val batches  : 13
+  Test batches : 116
+======================================================================
+MirrorSpeech Balanced 10k Improvement Run
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 5090
+======================================================================
+SPLITS_DIR : C:\Users\shreya\Desktop\Mirrorspeech\splits
+LIBRI_ROOT : C:\Users\shreya\Desktop\Mirrorspeech\librispeech
+CKPT_DIR   : C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun
+Accent map: {0: 'Indian', 1: 'Mandarin', 2: 'Korean', 3: 'Arabic', 4: 'Native'}
+Num accent classes: 5
+Target sample rate: 16000
+Already extracted: RRBI
+Already extracted: SVBI
+Already extracted: TNI
+Already extracted: NJS
+Already extracted: HQTV
+Already extracted: MBMPS
+Already extracted: NCC
+Already extracted: TXHC
+Already extracted: HJK
+Already extracted: HKK
+Already extracted: YDCK
+Already extracted: YKWK
+Already extracted: ABA
+Already extracted: YBAA
+Already extracted: SKA
+Already extracted: ZHAA
+Already extracted: ASI
+Already extracted: BWC
+Already extracted: EBVS
+Already extracted: ERMS
+Already extracted: LXC
+Already extracted: PNV
+Already extracted: THV
+Already extracted: TLV
+LibriSpeech already present locally.
+Dataset sizes:
+  Train: 10000
+  Val  : 200
+  Test : 1855
+Accent classes: 5
+  Indian    : 2000
+  Mandarin  : 2000
+  Korean    : 2000
+  Arabic    : 2000
+  Native    : 2000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Whisper processor ready.
+Datasets ready.
+Dataloaders ready:
+  Train batches: 625
+  Val batches  : 13
+  Test batches : 116
+======================================================================
+MirrorSpeech Balanced 10k Improvement Run
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 5090
+======================================================================
+SPLITS_DIR : C:\Users\shreya\Desktop\Mirrorspeech\splits
+LIBRI_ROOT : C:\Users\shreya\Desktop\Mirrorspeech\librispeech
+CKPT_DIR   : C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun
+Accent map: {0: 'Indian', 1: 'Mandarin', 2: 'Korean', 3: 'Arabic', 4: 'Native'}
+Num accent classes: 5
+Target sample rate: 16000
+Already extracted: RRBI
+Already extracted: SVBI
+Already extracted: TNI
+Already extracted: NJS
+Already extracted: HQTV
+Already extracted: MBMPS
+Already extracted: NCC
+Already extracted: TXHC
+Already extracted: HJK
+Already extracted: HKK
+Already extracted: YDCK
+Already extracted: YKWK
+Already extracted: ABA
+Already extracted: YBAA
+Already extracted: SKA
+Already extracted: ZHAA
+Already extracted: ASI
+Already extracted: BWC
+Already extracted: EBVS
+Already extracted: ERMS
+Already extracted: LXC
+Already extracted: PNV
+Already extracted: THV
+Already extracted: TLV
+LibriSpeech already present locally.
+Dataset sizes:
+  Train: 10000
+  Val  : 200
+  Test : 1855
+Accent classes: 5
+  Indian    : 2000
+  Mandarin  : 2000
+  Korean    : 2000
+  Arabic    : 2000
+  Native    : 2000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Whisper processor ready.
+Datasets ready.
+Dataloaders ready:
+  Train batches: 625
+  Val batches  : 13
+  Test batches : 116
+======================================================================
+MirrorSpeech Balanced 10k Improvement Run
+======================================================================
+Device: cuda
+GPU: NVIDIA GeForce RTX 5090
+======================================================================
+SPLITS_DIR : C:\Users\shreya\Desktop\Mirrorspeech\splits
+LIBRI_ROOT : C:\Users\shreya\Desktop\Mirrorspeech\librispeech
+CKPT_DIR   : C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun
+Accent map: {0: 'Indian', 1: 'Mandarin', 2: 'Korean', 3: 'Arabic', 4: 'Native'}
+Num accent classes: 5
+Target sample rate: 16000
+Already extracted: RRBI
+Already extracted: SVBI
+Already extracted: TNI
+Already extracted: NJS
+Already extracted: HQTV
+Already extracted: MBMPS
+Already extracted: NCC
+Already extracted: TXHC
+Already extracted: HJK
+Already extracted: HKK
+Already extracted: YDCK
+Already extracted: YKWK
+Already extracted: ABA
+Already extracted: YBAA
+Already extracted: SKA
+Already extracted: ZHAA
+Already extracted: ASI
+Already extracted: BWC
+Already extracted: EBVS
+Already extracted: ERMS
+Already extracted: LXC
+Already extracted: PNV
+Already extracted: THV
+Already extracted: TLV
+LibriSpeech already present locally.
+Dataset sizes:
+  Train: 10000
+  Val  : 200
+  Test : 1855
+Accent classes: 5
+  Indian    : 2000
+  Mandarin  : 2000
+  Korean    : 2000
+  Arabic    : 2000
+  Native    : 2000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Whisper processor ready.
+Datasets ready.
+Dataloaders ready:
+  Train batches: 625
+  Val batches  : 13
+  Test batches : 116
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 389/389 [00:00<00:00, 3089.45it/s]
+[transformers] RobertaModel LOAD REPORT from: roberta-large
+Key                       | Status     | Details
+--------------------------+------------+--------
+lm_head.bias              | UNEXPECTED |        
+lm_head.dense.bias        | UNEXPECTED |        
+lm_head.dense.weight      | UNEXPECTED |        
+lm_head.layer_norm.weight | UNEXPECTED |        
+lm_head.layer_norm.bias   | UNEXPECTED |        
+pooler.dense.weight       | MISSING    |        
+pooler.dense.bias         | MISSING    |        
+
+Notes:
+- UNEXPECTED:   can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:      those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 389/389 [00:00<00:00, 4888.06it/s]
+[transformers] RobertaModel LOAD REPORT from: roberta-large
+Key                       | Status     | Details
+--------------------------+------------+--------
+lm_head.bias              | UNEXPECTED |        
+lm_head.dense.bias        | UNEXPECTED |        
+lm_head.dense.weight      | UNEXPECTED |        
+lm_head.layer_norm.weight | UNEXPECTED |        
+lm_head.layer_norm.bias   | UNEXPECTED |        
+pooler.dense.weight       | MISSING    |        
+pooler.dense.bias         | MISSING    |        
+
+Notes:
+- UNEXPECTED:   can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:      those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 389/389 [00:00<00:00, 6096.94it/s]
+[transformers] RobertaModel LOAD REPORT from: roberta-large
+Key                       | Status     | Details
+--------------------------+------------+--------
+lm_head.bias              | UNEXPECTED |        
+lm_head.dense.bias        | UNEXPECTED |        
+lm_head.dense.weight      | UNEXPECTED |        
+lm_head.layer_norm.weight | UNEXPECTED |        
+lm_head.layer_norm.bias   | UNEXPECTED |        
+pooler.dense.weight       | MISSING    |        
+pooler.dense.bias         | MISSING    |        
+
+Notes:
+- UNEXPECTED:   can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:      those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 389/389 [00:00<00:00, 6208.53it/s]
+[transformers] RobertaModel LOAD REPORT from: roberta-large
+Key                       | Status     | Details
+--------------------------+------------+--------
+lm_head.bias              | UNEXPECTED |        
+lm_head.dense.bias        | UNEXPECTED |        
+lm_head.dense.weight      | UNEXPECTED |        
+lm_head.layer_norm.weight | UNEXPECTED |        
+lm_head.layer_norm.bias   | UNEXPECTED |        
+pooler.dense.weight       | MISSING    |        
+pooler.dense.bias         | MISSING    |        
+
+Notes:
+- UNEXPECTED:   can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:      those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 389/389 [00:00<00:00, 6073.02it/s]
+[transformers] RobertaModel LOAD REPORT from: roberta-large
+Key                       | Status     | Details
+--------------------------+------------+--------
+lm_head.bias              | UNEXPECTED |        
+lm_head.dense.bias        | UNEXPECTED |        
+lm_head.dense.weight      | UNEXPECTED |        
+lm_head.layer_norm.weight | UNEXPECTED |        
+lm_head.layer_norm.bias   | UNEXPECTED |        
+pooler.dense.weight       | MISSING    |        
+pooler.dense.bias         | MISSING    |        
+
+Notes:
+- UNEXPECTED:   can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:      those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 389/389 [00:00<00:00, 8273.80it/s]
+[transformers] RobertaModel LOAD REPORT from: roberta-large
+Key                       | Status     | Details
+--------------------------+------------+--------
+lm_head.bias              | UNEXPECTED |        
+lm_head.dense.bias        | UNEXPECTED |        
+lm_head.dense.weight      | UNEXPECTED |        
+lm_head.layer_norm.weight | UNEXPECTED |        
+lm_head.layer_norm.bias   | UNEXPECTED |        
+pooler.dense.weight       | MISSING    |        
+pooler.dense.bias         | MISSING    |        
+
+Notes:
+- UNEXPECTED:   can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:      those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+====================================================================================================
+Task 7 Test Results - Full
+====================================================================================================
+Arabic      WER=0.1136  CER=0.0491  SER=0.5382  PER=0.0539  WIL=0.1958  BERT=0.9704  (n=340)
+Indian      WER=0.0827  CER=0.0349  SER=0.4289  PER=0.0383  WIL=0.1446  BERT=0.9795  (n=457)
+Korean      WER=0.0937  CER=0.0415  SER=0.5134  PER=0.0454  WIL=0.1628  BERT=0.9772  (n=335)
+Mandarin    WER=0.2641  CER=0.1353  SER=0.6031  PER=0.1290  WIL=0.3271  BERT=0.9638  (n=451)
+Native      WER=0.0469  CER=0.0166  SER=0.4926  PER=0.0180  WIL=0.0822  BERT=0.9869  (n=272)
+overall     WER=0.1148  CER=0.0527  SER=0.5159  PER=0.0540  WIL=0.1781  BERT=0.9747  (n=1855)
+Saved: C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_results.json
+Saved: C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_history.json
+Best checkpoint: C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_full_best.pt
+Saved: C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_curves.png
+====================================================================================================
+MIRRORSPEECH BALANCED10K FINAL SUMMARY
+====================================================================================================
+Task 4 overall WER     : 0.2600
+Task 4 overall CER     : 0.1824
+Task 7 overall WER     : 0.1148
+Task 7 overall CER     : 0.0527
+Task 7 overall SER     : 0.5159
+Task 7 overall PER     : 0.0540
+Task 7 overall WIL     : 0.1781
+Task 7 overall BERT F1 : 0.9747
+Delta WER              : -0.1452
+Delta CER              : -0.1297
+====================================================================================================
+Files saved in : C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun
+Best checkpoint: C:\Users\shreya\Desktop\Mirrorspeech\checkpoints_balanced10k_27Aprrun\task7_balanced10k_3ep_lr2e5_alpha05_full_best.pt
+(venv) PS C:\Users\shreya\Desktop\MirrorSpeech> 
